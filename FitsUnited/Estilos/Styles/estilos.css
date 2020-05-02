@@ -1,0 +1,68 @@
+
+body{
+    border: 1px;
+    padding: 1%;
+    border-style: dashed;
+    border-color: brown;
+    background-color:whitesmoke;
+}
+h2 { 
+    color: white;
+    background-color: black;
+}
+
+#Cabecera {
+    color: blue;
+    background-color: yellow;
+}
+
+p.Texto{
+    color:blue;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 2px;
+    border-style: inherit;
+    border-color: lightsalmon;
+}
+nav > button, 
+a {
+    background-color: rgb(13, 80, 92);
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+.boton1 {
+    ;
+}
+.CONTENEDOR {
+    display: flex;
+    justify-content: space-between;
+    background-color: violet;
+}
+.Contenido_Principal {
+    width: 70%;
+    border: 2px;
+    border-style: solid;
+    border-color: darkblue;
+    background-color: yellow;
+}
+
+.barra_lateral {
+    width: 30%;
+    border: 2px;
+    border-style: double;
+    border-color: darkmagenta;
+    background-color: aqua;
+}
+
+.contacto {
+    width: flex;
+    height: 70px;
+    border: 1.5px;
+    border-style: dotted;
+    border-color: black;
+}
